@@ -4,7 +4,7 @@ runtime: go
 api_version: go1
 
 handlers:
-- url: /img/.*
+- url: /img*
   static_dir: img
 
 - url: /.*
